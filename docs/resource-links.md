@@ -17,7 +17,8 @@
 - [STM32 32-bit Arm Cortex MCUs](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
 - [community.st.com | STM32 MCUs](https://community.st.com/t5/stm32-mcus/ct-p/stm32-mcus)
 - [ST STM32F429I Discovery](https://docs.zephyrproject.org/latest/boards/st/stm32f429i_disc1/doc/index.html)
-- [ Description of STM32F4 HAL and low-layer drivers](https://www.st.com/resource/en/user_manual/dm00105879-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf)
+- [pdf | Description of STM32F4 HAL and low-layer drivers](https://www.st.com/resource/en/user_manual/dm00105879-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf)
+- [pdf | STM32F429 Reference manual](https://www.st.com/content/ccc/resource/technical/document/reference_manual/3d/6d/5a/66/b4/99/40/d4/DM00031020.pdf/files/DM00031020.pdf/jcr:content/translations/en.DM00031020.pdf)
 
 **ST Microelectronics**
 - [github.com | STMicroelectronics open source software](https://github.com/STMicroelectronics)
