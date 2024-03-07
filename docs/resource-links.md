@@ -5,3 +5,4 @@
   
 **Hardware Debugger and Programmer Tools for STM32**
 - [st.com | Hardware Debugger and Programmer Tools for STM32 - Products](https://www.st.com/en/development-tools/hardware-debugger-and-programmer-tools-for-stm32/products.html)
+- [deepbluembedded.com | STM32 EcoSystem (Development Environment) Setup](https://deepbluembedded.com/stm32-ecosystem-development-environment-setup/)
