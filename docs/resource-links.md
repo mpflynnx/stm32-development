@@ -21,8 +21,6 @@
 - [st.com | Hardware Debugger and Programmer Tools for STM32 - Products](https://www.st.com/en/development-tools/hardware-debugger-and-programmer-tools-for-stm32/products.html)
 - [deepbluembedded.com | STM32 EcoSystem (Development Environment) Setup](https://deepbluembedded.com/stm32-ecosystem-development-environment-setup/)
 - [st.com | ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32](https://www.st.com/en/development-tools/st-link-v2.html)
-
-
 - [github.com | Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
 
 **STM32F4 Series**
@@ -95,7 +93,6 @@
 and initialization C code generation](https://www.st.com/content/ccc/resource/technical/document/user_manual/10/c5/1a/43/3a/70/43/7d/DM00104712.pdf/files/DM00104712.pdf/jcr:content/translations/en.DM00104712.pdf)
 - [st.com | STM32Cube initialization code generator](https://www.st.com/en/development-tools/stm32cubemx.html?icmp=tt11642_gl_lnkon_jun2019)
 - [st.com | STM32Cube MCU Package for STM32F4 series](https://www.st.com/en/embedded-software/stm32cubef4.html)
-
 - [keil.arm.com | Keil MDK v6 Community Edition](https://www.keil.arm.com/)
 - [learn.arm.com | Get started with Keil MDK Code Coverage](https://learn.arm.com/learning-paths/microcontrollers/coverage_mdk/)
 - [keil.arm.com | Keil Projects for STM32F429I-Discovery](https://www.keil.arm.com/boards/stmicroelectronics-stm32f429i-discovery-revb-6126ce5/projects/)
