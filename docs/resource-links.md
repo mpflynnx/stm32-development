@@ -4,7 +4,7 @@
 
 **YouTube videos**
 - [Learn Embedded Systems | Getting started with the STM32F4 Discovery - Blink LEDs](https://www.youtube.com/watch?v=Ld20MbXSXI8&list=LL&index=40&t=281s)
-- [Digi-Key | Getting Started with STM32 and Nucleo Part 1: Introduction to STM32CubeIDE and Blinky](https://www.youtube.com/watch?v=hyZS2p1tW-g&list=LL&index=9&t=105s)
+- [Digi-Key | Getting Started with STM32 and Nucleo Playlist](https://www.youtube.com/@digikey/search?query=STM32)
 - [WeeWStack | STM32 Tutorial: Step-by-Step Keil uVision Install & Setup for STM32 Development | Beginner's Guide](https://m.youtube.com/watch?v=TO85lArN1B8&t=39s)
 - [STMicroelectronics | STM32CubeMX and STM32Cube HAL basics](https://www.youtube.com/playlist?list=PLnMKNibPkDnGtuIl5v0CvC81Am7SKpj02)
 - [STMicroelectronics | Hands-On with STM32 Timers: Dead-time Insertion in Complementary PWM Output](https://www.youtube.com/watch?v=rDaC2N-33Oo&list=PLnMKNibPkDnHHfPVKKOE8A4AJpgDR932A)
