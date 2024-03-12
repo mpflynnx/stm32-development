@@ -16,6 +16,8 @@
 - [STMicroelectronics | STM32CubeIDE Tutorials](https://www.youtube.com/playlist?list=PL8n_tqwYdzVANEGjLs4C6ICkDNLhdsbmM)
 - [STMicroelectronics | Hal | STM32MP13 Bare Metal workshop Demo](https://www.youtube.com/watch?v=ljT-UpncIPk&t=153s)
 - [STMicroelectronics | Hal | STM32MP13 Bare Metal workshop Demo | Start from scratch](https://www.youtube.com/watch?v=ljT-UpncIPk&t=612s)
+- [Mikrotronics Academy | Beginning with STM32 Microcontroller programming](https://www.youtube.com/playlist?list=PLLHCjBf3JujDqQLd_6g1K4K7JD5uqig-2)
+- [Mitch Davis | STM32 Guide Playlist](https://www.youtube.com/@MitchDavis2/search?query=STM32%20Guide)
   
 **Hardware Debugger and Programmer Tools for STM32**
 - [st.com | Hardware Debugger and Programmer Tools for STM32 - Products](https://www.st.com/en/development-tools/hardware-debugger-and-programmer-tools-for-stm32/products.html)
@@ -103,3 +105,7 @@ and initialization C code generation](https://www.st.com/content/ccc/resource/te
 
 **Books**
 - [Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C (Fourth Edition)](https://web.eece.maine.edu/~zhu/book/)
+
+**Software**
+- [Curated list of awesome Free and Open Source Software (FOSS) for electrical engineering](https://www.reddit.com/r/electronics/comments/ap6m45/curated_list_of_awesome_free_and_open_source/?utm_source=share&utm_medium=web2x)
+- [Proteus | PCB Design & Simulation Made Easy](https://www.labcenter.com/)
