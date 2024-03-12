@@ -19,6 +19,7 @@
 - [Mikrotronics Academy | Beginning with STM32 Microcontroller programming](https://www.youtube.com/playlist?list=PLLHCjBf3JujDqQLd_6g1K4K7JD5uqig-2)
 - [Mitch Davis | STM32 Guide Playlist](https://www.youtube.com/@MitchDavis2/search?query=STM32%20Guide)
 - [Phil's Lab | STM32 Firmware](https://www.youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
+- [Phil's Lab | FreeRTOS STM32CubeIDE Set-Up ](https://www.youtube.com/watch?v=OyVemnshlQQ&list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA&index=1&t=1170s)
   
 **Hardware Debugger and Programmer Tools for STM32**
 - [st.com | Hardware Debugger and Programmer Tools for STM32 - Products](https://www.st.com/en/development-tools/hardware-debugger-and-programmer-tools-for-stm32/products.html)
