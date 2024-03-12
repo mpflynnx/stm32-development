@@ -1,8 +1,25 @@
 ## Resource links
 
+## Table of Contents
+- [YouTube Videos](#youtube-videos)
+- [Hardware Debugger and Programmer Tools for STM32](#hardware-debugger-and-programmer-tools-for-stm32)
+- [STM32F4 Series](#stm32f4-series)
+- [STM32CubeF4 MCU Package for STM32F4 series](#stm32cubef4-mcu-package-for-stm32f4-series)
+- [Development Kits](#development-kits)
+- [ST Microelectronics](#st-microelectronics)
+- [Real Time Operating Systems](#real-time-operating-systems)
+- [Mbed OS](#mbed-os)
+- [Arm](#arm)
+- [FreeRTOS / CMSIS-RTOS2](#freertos--cmsis-rtos2)
+- [Arm Virtual Hardware](#arm-virtual-hardware)
+- [IDEs](#ides)
+- [Books](#books)
+- [Software](#software)
+
+[Top](#table-of-contents)
 
 
-**YouTube videos**
+### YouTube videos
 - [Learn Embedded Systems | Getting started with the STM32F4 Discovery - Blink LEDs](https://www.youtube.com/watch?v=Ld20MbXSXI8&list=LL&index=40&t=281s)
 - [Digi-Key | Getting Started with STM32 and Nucleo Playlist](https://www.youtube.com/@digikey/search?query=STM32)
 - [WeeWStack | STM32 Tutorial: Step-by-Step Keil uVision Install & Setup for STM32 Development | Beginner's Guide](https://m.youtube.com/watch?v=TO85lArN1B8&t=39s)
@@ -20,14 +37,16 @@
 - [Mitch Davis | STM32 Guide Playlist](https://www.youtube.com/@MitchDavis2/search?query=STM32%20Guide)
 - [Phil's Lab | STM32 Firmware](https://www.youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Phil's Lab | FreeRTOS STM32CubeIDE Set-Up ](https://www.youtube.com/watch?v=OyVemnshlQQ&list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA&index=1&t=1170s)
-  
-**Hardware Debugger and Programmer Tools for STM32**
+
+[Top](#table-of-contents)
+## Hardware Debugger and Programmer Tools for STM32
 - [st.com | Hardware Debugger and Programmer Tools for STM32 - Products](https://www.st.com/en/development-tools/hardware-debugger-and-programmer-tools-for-stm32/products.html)
 - [deepbluembedded.com | STM32 EcoSystem (Development Environment) Setup](https://deepbluembedded.com/stm32-ecosystem-development-environment-setup/)
 - [st.com | ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32](https://www.st.com/en/development-tools/st-link-v2.html)
 - [github.com | Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap)
 
-**STM32F4 Series**
+[Top](#table-of-contents)
+## STM32F4 Series
 - [st.com | STM32F4 Series Overview](https://www.st.com/en/microcontrollers-microprocessors/stm32f4-series.html)
 - [st.com | STM32F429/439 Overview](https://www.st.com/en/microcontrollers-microprocessors/stm32f429-439.html)
 - [st.com | STM32 32-bit Arm Cortex MCUs](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
@@ -37,15 +56,16 @@
 - [community.st.com | register programming](https://community.st.com/t5/stm32-mcus-products/stm32-f4-register-programming/td-p/361864)
 - [pdf | st.com | STM32F429 Reference Manual](https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 
-**STM32CubeF4 MCU Package for STM32F4 series**
+[Top](#table-of-contents)
+### STM32CubeF4 MCU Package for STM32F4 series
 - [STM32Cube MCU Package for STM32F4 series (HAL, Low-Layer APIs and CMSIS, USB, TCP/IP, File system, RTOS, Graphic - and examples running on ST boards)](https://www.st.com/en/embedded-software/stm32cubef4.html)
 - [local fs | Projects\STM32F429I-Discovery](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Projects\STM32F429I-Discovery)
 - [local fs | Projects\STM32F429I-Discovery\Examples](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Projects\STM32F429I-Discovery\Examples)
 - [local fs | STM32CubeProjectsList.html ](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Projects\STM32CubeProjectsList.html)
 - [pdf | drive.google.com | STM32MP13 Bare Metal workshop Demo Slides ](https://drive.google.com%2Ffile%2Fd%2F1G85Bk-4mBUC2JVWL-KQdRcS_NHwTxp8O%2Fview%3Fusp%3Dsharing&v=ljT-UpncIPk)
 
-
-**Development kits**
+[Top](#table-of-contents)
+### Development kits
 - [docs.zephyrproject.org | ST STM32F429I Discovery](https://docs.zephyrproject.org/latest/boards/st/stm32f429i_disc1/doc/index.html)
 - [st.com | STM32F429I-DISC1 (replaces STM32F429I-DISCO)](https://www.st.com/en/evaluation-tools/32f429idiscovery.html)
 - [pdf | Getting started with STM32F429 Discovery software development tools](https://www.st.com/web/en/resource/technical/document/user_manual/DM00097320.pdf)
@@ -55,22 +75,23 @@
 - [local fs | Source code demonstrations](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Projects\STM32F429I-Discovery\Demonstrations)
 - [local fs | Demo binary](~\Downloads\32f429i-discovery-kit\demo_code\en.32f429idiscovery_demo\32F429IDISCOVERY_demo\STemWin\Binary)
 
-
-**ST Microelectronics**
+[Top](#table-of-contents)
+### ST Microelectronics
 - [github.com | STMicroelectronics open source software](https://github.com/STMicroelectronics)
 - [STM32 Education](https://www.st.com/content/st_com/en/support/learning/stm32-education.html)
 - [st.com | Full range of STM32G4 training courses available online](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-online-training/stm32g4-online-training.html)
 - [STM32 MOOCs (Massive Open Online Courses)](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs.html)
 - [st.com | STM32G4 Online Training](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-online-training/stm32g4-online-training.html)
 
-
-**Real Time Operating Systems**
+[Top](#table-of-contents)
+### Real Time Operating Systems
 - [freertos.org | FreeRTOS](https://www.freertos.org/index.html)
 
 - [learn.arm.com | Build and run Zephyr applications](https://learn.arm.com/learning-paths/microcontrollers/zephyr/zephyr/)
 - [Zephyr | Samples and Demos](https://docs.zephyrproject.org/latest/samples/index.html)
 
-**Mbed OS**
+[Top](#table-of-contents)
+### Mbed OS
 - [os.mbed.com | What is Mbed Enabled?](https://os.mbed.com/mbed-enabled/introduction/)
 - [os.mbed.com | Mbed](https://os.mbed.com/)
 - [os.mbed.com | DISCO-F429ZI](https://os.mbed.com/platforms/ST-Discovery-F429ZI/)
@@ -79,13 +100,15 @@
 - [os.mbed.com | Mbed OS bare metal profile](https://os.mbed.com/docs/mbed-os/v6.16/bare-metal/index.html)
 - [os.mbed.com | Arm Mbed OS quick start](https://os.mbed.com/docs/mbed-os/v6.16/quick-start/index.html)
 
-**Arm**
+[Top](#table-of-contents)
+### Arm
 - [ARM Cortex-A Series Programmer's Guide for ARMv7-A](https://developer.arm.com/documentation/den0013/d/Introduction-to-Assembly-Language/Introduction-to-the-GNU-Assembler/GNU-Assembler-syntax)
 - [Arm Compiler for Embedded User Guide](https://developer.arm.com/documentation/100748/0621/Getting-Started/Using-the-integrated-assembler)
 - [Cortex-M4 Technical Reference Manual ](https://developer.arm.com/documentation/ddi0439/be/)
 - [Learn the architecture - Introducing the Arm architecture](https://developer.arm.com/documentation/102404/latest/)
 
-**FreeRTOS / CMSIS-RTOS2**
+[Top](#table-of-contents)
+### FreeRTOS / CMSIS-RTOS2
 - [freertos.org | Kernel | API Reference | Task Creation](https://www.freertos.org/a00019.html)
 - [keil.com | CMSIS-RTOS2 Documentation](https://www.keil.com/pack/doc/CMSIS/RTOS2/html/index.html)
 - [keil.com | CMSIS-RTOS API v2](https://www.keil.com/pack/doc/CMSIS/RTOS2/html/group__CMSIS__RTOS.html)
@@ -93,14 +116,14 @@
 - [keil.com | CMSIS-RTOS API v2 | Thread Management | osThreadTerminate](https://www.keil.com/pack/doc/cmsis/RTOS2/html/group__CMSIS__RTOS__ThreadMgmt.html#ga2f8ba6dba6e9c065a6e236ffd410d74a)
 - [keil.com | CMSIS-RTOS API v2 | Generic Wait Functions ](https://www.keil.com/pack/doc/cmsis/RTOS2/html/group__CMSIS__RTOS__Wait.html)
 
-
-**Arm Virtual Hardware**
+[Top](#table-of-contents)
+### Arm Virtual Hardware
 - [Arm Virtual Hardware](https://www.arm.com/products/development-tools/simulation/virtual-hardware)
 - [Arm Virtual Hardware Install Guide](https://learn.arm.com/install-guides/avh#corstone)
 - [AWS Marketplace | Arm Virtual Hardware](https://aws.amazon.com/marketplace/pp/prodview-urbpq7yo5va7g)
 
-
-**IDEs**
+[Top](#table-of-contents)
+### IDEs
 - [st.com | STM32CubeIDE Documentation](https://www.st.com/en/development-tools/stm32cubeide.html#documentation)
 - [pdf | STM32CubeMX for STM32 configuration
 and initialization C code generation](https://www.st.com/content/ccc/resource/technical/document/user_manual/10/c5/1a/43/3a/70/43/7d/DM00104712.pdf/files/DM00104712.pdf/jcr:content/translations/en.DM00104712.pdf)
@@ -114,9 +137,11 @@ and initialization C code generation](https://www.st.com/content/ccc/resource/te
 - [os.mbed.com | Mbed Studio](https://os.mbed.com/studio/)
 - [learnembeddedsystems.co.uk | STM32F4 articles](https://learnembeddedsystems.co.uk/category/embedded-systems/stm32f4-discovery)
 
-**Books**
+[Top](#table-of-contents)
+### Books
 - [Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C (Fourth Edition)](https://web.eece.maine.edu/~zhu/book/)
 
-**Software**
+[Top](#table-of-contents)
+### Software
 - [Curated list of awesome Free and Open Source Software (FOSS) for electrical engineering](https://www.reddit.com/r/electronics/comments/ap6m45/curated_list_of_awesome_free_and_open_source/?utm_source=share&utm_medium=web2x)
 - [Proteus | PCB Design & Simulation Made Easy](https://www.labcenter.com/)
