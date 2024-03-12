@@ -66,6 +66,7 @@
 
 **Real Time Operating Systems**
 - [freertos.org | FreeRTOS](https://www.freertos.org/index.html)
+
 - [learn.arm.com | Build and run Zephyr applications](https://learn.arm.com/learning-paths/microcontrollers/zephyr/zephyr/)
 - [Zephyr | Samples and Demos](https://docs.zephyrproject.org/latest/samples/index.html)
 
@@ -83,6 +84,14 @@
 - [Arm Compiler for Embedded User Guide](https://developer.arm.com/documentation/100748/0621/Getting-Started/Using-the-integrated-assembler)
 - [Cortex-M4 Technical Reference Manual ](https://developer.arm.com/documentation/ddi0439/be/)
 - [Learn the architecture - Introducing the Arm architecture](https://developer.arm.com/documentation/102404/latest/)
+
+**FreeRTOS / CMSIS-RTOS2**
+- [freertos.org | Kernel | API Reference | Task Creation](https://www.freertos.org/a00019.html)
+- [keil.com | CMSIS-RTOS2 Documentation](https://www.keil.com/pack/doc/CMSIS/RTOS2/html/index.html)
+- [keil.com | CMSIS-RTOS API v2](https://www.keil.com/pack/doc/CMSIS/RTOS2/html/group__CMSIS__RTOS.html)
+- [keil.com | CMSIS-RTOS API v2 | Thread Management](https://www.keil.com/pack/doc/CMSIS/RTOS2/html/group__CMSIS__RTOS__ThreadMgmt.html)
+- [keil.com | CMSIS-RTOS API v2 | Thread Management | osThreadTerminate](https://www.keil.com/pack/doc/cmsis/RTOS2/html/group__CMSIS__RTOS__ThreadMgmt.html#ga2f8ba6dba6e9c065a6e236ffd410d74a)
+- [keil.com | CMSIS-RTOS API v2 | Generic Wait Functions ](https://www.keil.com/pack/doc/cmsis/RTOS2/html/group__CMSIS__RTOS__Wait.html)
 
 
 **Arm Virtual Hardware**
