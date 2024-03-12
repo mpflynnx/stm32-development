@@ -16,9 +16,6 @@
 - [Books](#books)
 - [Software](#software)
 
-[Top](#table-of-contents)
-
-
 ### YouTube videos
 - [Learn Embedded Systems | Getting started with the STM32F4 Discovery - Blink LEDs](https://www.youtube.com/watch?v=Ld20MbXSXI8&list=LL&index=40&t=281s)
 - [Digi-Key | Getting Started with STM32 and Nucleo Playlist](https://www.youtube.com/@digikey/search?query=STM32)
@@ -86,7 +83,6 @@
 [Top](#table-of-contents)
 ### Real Time Operating Systems
 - [freertos.org | FreeRTOS](https://www.freertos.org/index.html)
-
 - [learn.arm.com | Build and run Zephyr applications](https://learn.arm.com/learning-paths/microcontrollers/zephyr/zephyr/)
 - [Zephyr | Samples and Demos](https://docs.zephyrproject.org/latest/samples/index.html)
 
