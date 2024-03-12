@@ -34,6 +34,7 @@
 - [Mitch Davis | STM32 Guide Playlist](https://www.youtube.com/@MitchDavis2/search?query=STM32%20Guide)
 - [Phil's Lab | STM32 Firmware](https://www.youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Phil's Lab | FreeRTOS STM32CubeIDE Set-Up ](https://www.youtube.com/watch?v=OyVemnshlQQ&list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA&index=1&t=1170s)
+- [SystickImplementationStart](https://www.youtube.com/watch?v=6GZpOfvRVCg)
 
 [Top](#table-of-contents)
 ## Hardware Debugger and Programmer Tools for STM32
@@ -60,6 +61,7 @@
 - [local fs | Projects\STM32F429I-Discovery\Examples](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Projects\STM32F429I-Discovery\Examples)
 - [local fs | STM32CubeProjectsList.html ](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Projects\STM32CubeProjectsList.html)
 - [pdf | drive.google.com | STM32MP13 Bare Metal workshop Demo Slides ](https://drive.google.com%2Ffile%2Fd%2F1G85Bk-4mBUC2JVWL-KQdRcS_NHwTxp8O%2Fview%3Fusp%3Dsharing&v=ljT-UpncIPk)
+- [local fs | STM32F4Headers](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Drivers\CMSIS\Core\Include)
 
 [Top](#table-of-contents)
 ### Development kits
@@ -136,8 +138,20 @@ and initialization C code generation](https://www.st.com/content/ccc/resource/te
 [Top](#table-of-contents)
 ### Books
 - [Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C (Fourth Edition)](https://web.eece.maine.edu/~zhu/book/)
+- [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/)
 
 [Top](#table-of-contents)
 ### Software
 - [Curated list of awesome Free and Open Source Software (FOSS) for electrical engineering](https://www.reddit.com/r/electronics/comments/ap6m45/curated_list_of_awesome_free_and_open_source/?utm_source=share&utm_medium=web2x)
 - [Proteus | PCB Design & Simulation Made Easy](https://www.labcenter.com/)
+- [github.com | A bare metal programming guide (ARM microcontrollers)](https://github.com/cpq/bare-metal-programming-guide)
+- [makefiletutorial.com | Learn Makefiles](https://makefiletutorial.com/)
+- [github.com | Bare metal STM32F4 examples for various modules](https://github.com/fcayci/stm32f4-bare-metal/tree/master)
+- [github.com | Bare metal programming on a generic STM32F103c8 board](https://github.com/trebisky/stm32f103)
+- [github.com | Programming the STM32F103C8 micro controller at the "bare metal" register level.](https://github.com/getoffmyhack/STM32F103-Bare-Metal)
+- [github.com | ARM Cortex-M bare-metal example code in C++ and CMake build](https://github.com/cortexm/baremetal)
+- [github.com | QEMU Binaries for Windows (64 bit)](https://qemu.weilnetz.de/w64/)
+- [github.com | Running Bare-Metal Programs on QEMU for ARM and RISC-V CPUs](https://github.com/feihe027/qemu_mcu)
+- [github.com | Embedded Systems Online Diploma](https://github.com/fourat153/embedded_bare_metal/tree/main)
+- [github.com | STM32_I2CDriver](https://github.com/BFarkascode/STM32_I2CDriver)
+- [github.com | Bare Metal embedded Projects](https://github.com/AliiHussein/Embedded-Baremetal-Projects/tree/main)
