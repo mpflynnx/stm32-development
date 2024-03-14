@@ -13,6 +13,7 @@
 - [FreeRTOS / CMSIS-RTOS2](#freertos--cmsis-rtos2)
 - [Arm Virtual Hardware](#arm-virtual-hardware)
 - [IDEs](#ides)
+    - [Keil MDK](#keil-mdk)
 - [Books](#books)
 - [Software](#software)
 
@@ -35,6 +36,7 @@
 - [Phil's Lab | STM32 Firmware](https://www.youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Phil's Lab | FreeRTOS STM32CubeIDE Set-Up ](https://www.youtube.com/watch?v=OyVemnshlQQ&list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA&index=1&t=1170s)
 - [SystickImplementationStart](https://www.youtube.com/watch?v=6GZpOfvRVCg)
+- [Arm | Setup Keil MDK](https://www.youtube.com/watch?v=d_O2tu5CMbQ)
 
 [Top](#table-of-contents)
 ## Hardware Debugger and Programmer Tools for STM32
@@ -127,13 +129,38 @@
 and initialization C code generation](https://www.st.com/content/ccc/resource/technical/document/user_manual/10/c5/1a/43/3a/70/43/7d/DM00104712.pdf/files/DM00104712.pdf/jcr:content/translations/en.DM00104712.pdf)
 - [st.com | STM32Cube initialization code generator](https://www.st.com/en/development-tools/stm32cubemx.html?icmp=tt11642_gl_lnkon_jun2019)
 - [st.com | STM32Cube MCU Package for STM32F4 series](https://www.st.com/en/embedded-software/stm32cubef4.html)
+
+
+
+
+
+- [os.mbed.com | Mbed Studio](https://os.mbed.com/studio/)
+
+
+
+
+
+
+
+
+#### Keil MDK
+- [local fs | pdf | Getting started with MDK](Downloads/gs_MDK5_5_en.pdf)
 - [keil.arm.com | Keil MDK v6 Community Edition](https://www.keil.arm.com/)
 - [learn.arm.com | Get started with Keil MDK Code Coverage](https://learn.arm.com/learning-paths/microcontrollers/coverage_mdk/)
 - [keil.arm.com | Keil Projects for STM32F429I-Discovery](https://www.keil.arm.com/boards/stmicroelectronics-stm32f429i-discovery-revb-6126ce5/projects/)
 - [developer.arm.com | Keil MDK](https://developer.arm.com/Tools%20and%20Software/Keil%20MDK)
-- [st.com | Free Arm Keil MDK for STM32C0, STM32F0, STM32L0 and STM32G0](https://www.st.com/en/partner-products-and-services/free-arm-keil-mdk-for-stm32c0-stm32f0-stm32l0-and-stm32g0.html)
-- [os.mbed.com | Mbed Studio](https://os.mbed.com/studio/)
-- [learnembeddedsystems.co.uk | STM32F4 articles](https://learnembeddedsystems.co.uk/category/embedded-systems/stm32f4-discovery)
+- [st.com | Arm Keil MDK for STM32](https://arm-sc10xp1-pre-prod-cd.azurewebsites.net/tools-and-software/embedded/keil-mdk/buy/stmicroelectronics)
+- [developer.arm.com | Keil MDK Overview](https://developer.arm.com/Tools%20and%20Software/Keil%20MDK)
+- [keil.com | Keil MDK | Complete Listing of Application Notes](https://www.keil.com/appnotes/list/all.htm)
+- [Keil MDK | µVision User's Guide](https://developer.arm.com/documentation/101407/0538/?lang=en)
+- [developer.arm.com | Getting started with MDK](https://developer.arm.com/documentation/KGS1/1-0/?lang=en)
+- [local fs | CMSIS-RTX  Version 5.8.0](/Arm/Packs/ARM/CMSIS-RTX/5.8.0/Documentation/html/index.html)
+- [local fs | Create an RTX5 Project](Arm/Packs/ARM/CMSIS-RTX/5.8.0/Documentation/html/cre_rtx_proj.html)
+- [Arm | What’s new in CMSIS-RTOS2 and Keil RTX5](https://www.youtube.com/watch?v=1k07HDA0SLk&list=PL2F72C57B07FC982D&index=10)
+- [MDK Tutorial | LPC1768 | Using CMSIS-DSP with Keil RTX5](https://www.keil.com/appnotes/files/apnt_296.pdf)
+- [Pack | LPC1700_DFP](https://www.keil.arm.com/packs/lpc1700_dfp-keil/versions/)
+- [keil.arm.com | STM32F429I-Discovery](https://www.keil.arm.com/boards/stmicroelectronics-stm32f429i-discovery-revb-6126ce5/projects/)
+- [Setting Up Keil MDK for LPC1768](https://www.electronicshub.org/setting-up-keil-mdk-for-lpc1768/)
 
 [Top](#table-of-contents)
 ### Books
