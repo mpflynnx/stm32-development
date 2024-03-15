@@ -75,6 +75,7 @@
 - [pdf | st.com | STM32CubeF4 demonstration platform](https://www.st.com/resource/en/user_manual/dm00112348-stm32cubef4-demonstration-platform-stmicroelectronics.pdf)
 - [local fs | Source code demonstrations](~\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.0\Projects\STM32F429I-Discovery\Demonstrations)
 - [local fs | Demo binary](~\Downloads\32f429i-discovery-kit\demo_code\en.32f429idiscovery_demo\32F429IDISCOVERY_demo\STemWin\Binary)
+- [MB1075-F429I-E01 Board Schematic](https://www.st.com/resource/en/schematic_pack/mb1075-f429i-e01_schematic.pdf)
 
 [Top](#table-of-contents)
 ### ST Microelectronics
@@ -129,19 +130,7 @@
 and initialization C code generation](https://www.st.com/content/ccc/resource/technical/document/user_manual/10/c5/1a/43/3a/70/43/7d/DM00104712.pdf/files/DM00104712.pdf/jcr:content/translations/en.DM00104712.pdf)
 - [st.com | STM32Cube initialization code generator](https://www.st.com/en/development-tools/stm32cubemx.html?icmp=tt11642_gl_lnkon_jun2019)
 - [st.com | STM32Cube MCU Package for STM32F4 series](https://www.st.com/en/embedded-software/stm32cubef4.html)
-
-
-
-
-
 - [os.mbed.com | Mbed Studio](https://os.mbed.com/studio/)
-
-
-
-
-
-
-
 
 #### Keil MDK
 - [local fs | pdf | Getting started with MDK](Downloads/gs_MDK5_5_en.pdf)
@@ -161,6 +150,8 @@ and initialization C code generation](https://www.st.com/content/ccc/resource/te
 - [Pack | LPC1700_DFP](https://www.keil.arm.com/packs/lpc1700_dfp-keil/versions/)
 - [keil.arm.com | STM32F429I-Discovery](https://www.keil.arm.com/boards/stmicroelectronics-stm32f429i-discovery-revb-6126ce5/projects/)
 - [Setting Up Keil MDK for LPC1768](https://www.electronicshub.org/setting-up-keil-mdk-for-lpc1768/)
+- [keil.com | Device | STM32F429ZITx ](https://www.keil.arm.com/devices/stmicroelectronics-stm32f429zitx/boards/)
+- [Pack | STM32F4xx_DFP](https://www.keil.arm.com/packs/stm32f4xx_dfp-keil/boards/)
 
 [Top](#table-of-contents)
 ### Books
