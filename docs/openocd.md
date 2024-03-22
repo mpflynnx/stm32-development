@@ -6,10 +6,10 @@ OpenOCD provides on-chip programming and debugging support.
 - [Installation on Ubuntu based distros](#installation-on-ubuntu-based-distros)
 - [Running openocd](#running-openocd)
 - [gdb-multiarch usage](#gdb-multiarch-usage)
-- [View the gpio register memory address]()
-- [Using a .gdbinit file to auto connect to openocd port]()
-- [Adding a Makefile task to start openocd and gdb-multiarch together]()
-- [kill openocd port 3333]()
+- [View the gpio register memory address](#view-the-gpio-register-memory-address)
+- [Using a .gdbinit file to auto connect to openocd port](#using-a-gdbinit-file-to-auto-connect-to-openocd-port)
+- [Adding a Makefile task to start openocd and gdb-multiarch together](#adding-a-makefile-task-to-start-openocd-and-gdb-multiarch-together)
+- [kill openocd port 3333](#kill-openocd-port-3333)
 - [External references](#external-references)
 
 ### Installation on Ubuntu based distros

@@ -2,13 +2,20 @@
 
 ## Table of Contents
 - [Installation on Ubuntu based distros](#installation-on-ubuntu-based-distros)
+- [Using libopencm3](#using-libopencm3)
+- [Working with libopencm3-template](#working-with-libopencm3-template)
+- [Configure my-project Makefile](#configure-my-project-makefile)
+- [Blinky for STM32F4](#blinky-for-stm32f4)
+- [Build the project](#build-the-project)
+- [Flash the project](#flash-the-project)
+- [Debug the project using OpenOCD](#debug-the-project-using-openocd)
 - [External references](#external-references)
 
 The `libopencm3` project aims to create an open-source firmware library for various ARM Cortex-M microcontrollers.
 
 ### Installation on Ubuntu based distros
 
-libopencm3 needs compiling once for the project to use it, therefore an `arm-none-eabi/arm-elf` toolchain is required, `arm-none-eabi` is the default in Makefile.
+libopencm3 needs compiling once for the project to use it, therefore an `arm-none-eabi/arm-elf` toolchain is required, `arm-none-eabi` is the default in libopencm3 Makefile.
 
 ```bash
 $ sudo apt install gcc-arm-none-eabi
@@ -29,7 +36,7 @@ make TARGETS='stm32/f4'
 
 - [github.com | libopencm3-template](https://github.com/libopencm3/libopencm3-template)
 
-Using the libopencm3 template for a new project. First create a new folder for the project then clone the template in that folder.
+Using the libopencm3 template for a new project. Clone the template into a new-project-name folder.
 ```bash
 git clone --recurse-submodules https://github.com/libopencm3/libopencm3-template.git new-project-name
 cd new-project-name
@@ -103,7 +110,7 @@ st-flash --reset write awesomesauce.bin 0x08000000
 ```
 
 #### Debug the project using OpenOCD
-See [OpenOCD](docs/openocd.md)
+See [OpenOCD](openocd.md)
 
 
 [Top](#table-of-contents)
