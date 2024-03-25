@@ -43,7 +43,7 @@ cd new-project-name
 make -C libopencm3 # (Only needed once)
 ```
 
-#### Configure my-project Makefile
+### Configure my-project Makefile
 
 Edit file `./new-project-name/my-project/Makefile` in locations shown below:
 
@@ -60,7 +60,29 @@ DEVICE=stm32f429zit6
 OOCD_FILE = board/stm32f429discovery.cfg
 ```
 
-#### Blinky for STM32F4
+### Visual Studio Code IntelliSense with libopencm3
+
+To use Visual Studio Codes IntelliSense feature and `libopencm3` as a `git submodule` inside your own project the following configuration file is needed at the projects root folder.
+
+**c_cpp_properties.json**
+```json
+{
+    "configurations": [
+        {
+            "name": "gcc",
+            "includePath": [
+                "${workspaceFolder}\\libopencm3\\include"
+            ],
+            "defines": [
+                "STM32F4"
+            ]
+        }
+    ],
+    "version": 4
+}
+```
+
+### Blinky for STM32F4
 
 Edit file `./new-project-name/my-project/my-project.c`
 
@@ -93,12 +115,12 @@ int main(void) {
 }
 ```
 
-#### Build the project
+### Build the project
 ```bash
 make -C my-project
 ```
 
-#### Flash the project
+### Flash the project
 
 Flash the project using `st-flash`. `st-flash` is part of the the `stlink-tools` package.
 
@@ -109,7 +131,7 @@ cd ./new-project-name/my-project
 st-flash --reset write awesomesauce.bin 0x08000000
 ```
 
-#### Debug the project using OpenOCD
+### Debug the project using OpenOCD
 See [OpenOCD](openocd.md)
 
 
