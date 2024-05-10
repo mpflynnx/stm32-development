@@ -10,6 +10,7 @@
 - [Real Time Operating Systems](#real-time-operating-systems)
 - [Mbed OS](#mbed-os)
 - [Arm](#arm)
+- [CMake project templates](#cmake-project-templates)
 - [FreeRTOS / CMSIS-RTOS2](#freertos--cmsis-rtos2)
 - [Arm Virtual Hardware](#arm-virtual-hardware)
 - [IDEs](#ides)
@@ -111,6 +112,7 @@
 [Top](#table-of-contents)
 ### CMake Project Templates
 - [STM32 CMake Project Template](https://github.com/rxdu/stm32_cmake)
+- [Overview and some documentation of CMake build script for working with STM32.](https://jchisholm204.github.io/posts/stm32_cmake/)
 
 [Top](#table-of-contents)
 ### FreeRTOS / CMSIS-RTOS2
