@@ -109,6 +109,10 @@
 - [Learn the architecture - Introducing the Arm architecture](https://developer.arm.com/documentation/102404/latest/)
 
 [Top](#table-of-contents)
+### CMake Project Templates
+- [STM32 CMake Project Template](https://github.com/rxdu/stm32_cmake)
+
+[Top](#table-of-contents)
 ### FreeRTOS / CMSIS-RTOS2
 - [freertos.org | Kernel | API Reference | Task Creation](https://www.freertos.org/a00019.html)
 - [keil.com | CMSIS-RTOS2 Documentation](https://www.keil.com/pack/doc/CMSIS/RTOS2/html/index.html)
