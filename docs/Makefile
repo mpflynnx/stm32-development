@@ -11,8 +11,15 @@ TARGET_FLAGS=\
 	-mthumb-interwork
 
 CFLAGS=\
-	-g -Wall -Wextra - Werrors\
+	-g -Wall -Wextra - Werror\
 	$(TARGET_FLAGS)\
 	-ICMSIS
 	-DSTM32F429xx\
 	-DHSE_VALUE=8000000
+
+LDFLAGS=\
+	$(TARGET_FLAGS)\
+	-wl, -Tlinker.ld
+
+%.o : %.c
+  arm-none-eabi-gcc $(CFLAGS) -c -o $@ $<
