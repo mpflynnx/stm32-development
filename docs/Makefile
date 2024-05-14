@@ -1,5 +1,5 @@
 PROGRAM=bare
-OBJECTS=bare.o system_stm32f4xx.o startup_stm32f429zitx.s
+OBJECTS=main.o system_stm32f4xx.o startup_stm32f429zitx.s
 
 TARGET_FLAGS=\
 	--specs=nosys.specs\
@@ -26,3 +26,14 @@ LDFLAGS=\
 
 $(PROGRAM) : $(OBJECTS)
   arm-none-eabi-gcc $(LDFLAGS) -o $@ $(OBJECTS)
+
+flash:
+  openocd -f to be completed
+
+debug:
+  to be completed
+
+clean:
+  rm *.o $(PROGRAM)
+
+.PHONY: flash debug clean
