@@ -23,3 +23,6 @@ LDFLAGS=\
 
 %.o : %.c
   arm-none-eabi-gcc $(CFLAGS) -c -o $@ $<
+
+$(PROGRAM) : $(OBJECTS)
+  arm-none-eabi-gcc $(LDFLAGS) -o $@ $(OBJECTS)

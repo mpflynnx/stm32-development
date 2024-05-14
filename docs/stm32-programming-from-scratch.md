@@ -282,7 +282,7 @@ Specify the linker script filename using `-T` followed by the filename.
 
 [Pattern Rules](https://makefiletutorial.com/#pattern-rules) contain a `%` in the target. This `%` matches any nonempty string, and the other characters match themselves.
 
-Define a pattern rule that compiles every `.c` file into an object `.o` file.
+Define a target using a pattern rule that compiles every `.c` file into an object `.o`.
 
 ```Makefile
 %.o : %.c
@@ -302,7 +302,18 @@ Define a pattern rule that compiles every assembly file `.s` into an object `.o`
 ```
 Use the compiler `arm-none-eabi-gcc` pass in the CFLAGS using $(CFLAGS) then specify the input `.c` files and output `.o` files.
 
-Define a rule for the program
+Define a [target](https://makefiletutorial.com/#the-essence-of-make) for creating the program executable, whose name was defined at the top of the Makefile using `PROGRAM=`. The program executable will be created if the prerequisite files defined using `OBJECTS=` have changed.
+
+```Makefile
+$(PROGRAM) : $(OBJECTS)
+  ..
+```
+ The command for the target, is to run the compiler passing in the linker options `LDFLAGS` and the files defined using `OBJECTS=`
+
+```Makefile
+$(PROGRAM) : $(OBJECTS)
+  arm-none-eabi-gcc $(LDFLAGS) -o $@ $(OBJECTS)
+```
 
 ## External References
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
