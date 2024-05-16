@@ -228,7 +228,7 @@ If you have several projects in different directories you can add a line for eac
 
 ### Adding a Makefile task to start openocd and gdb-multiarch together
 
-:gdb:
+:gdb
   openocd -f /usr/share/openocd/scripts/interface/stlink.cfg -f /usr/share/openocd/scripts/target/stm32f4x.cfg & gdb-multiarch -q ./awesomesauce.elf
 
 
