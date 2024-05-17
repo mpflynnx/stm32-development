@@ -383,3 +383,4 @@ Adding .PHONY to a target will prevent Make from confusing the phony target with
 - [gnutoolchains.com | Download pre-built OpenOCD for Windows](https://gnutoolchains.com/arm-eabi/openocd/)
 - [st.com | ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32](https://www.st.com/en/development-tools/st-link-v2.html)
 - [makefiletutorial.com | .phony](https://makefiletutorial.com/#phony)
+- []()
