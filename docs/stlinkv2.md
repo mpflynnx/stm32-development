@@ -14,7 +14,8 @@ $ sudo apt install stlink-tools
 
 Test the installation:
 ```bash
-st-info --version
+$ st-info --version
+v1.7.0
 ```
 
 ### Useful commands
