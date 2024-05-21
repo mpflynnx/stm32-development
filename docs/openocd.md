@@ -19,15 +19,15 @@ sudo apt install openocd
 ```
 
 ### Running openocd
-To run `openocd` with `stlink`.
+To run `openocd` with `stlink` using the [command link with no customisation](https://openocd.org/doc-release/html/Running.html#Simple-setup_002c-no-customization)
 
 Connect the `32F429ZI-Discovery` board to the development environment via usb.
 
 ```bash
 cd my-project
 
-openocd -f /usr/share/openocd/scripts/interface/stlink.cfg\
- -f /usr/share/openocd/scripts/target/stm32f4x.cfg
+openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
+        -f /usr/share/openocd/scripts/target/stm32f4x.cfg
 ```
 **Output**
 ```bash
@@ -79,7 +79,7 @@ tcp        0      0 127.0.0.1:6666          0.0.0.0:*               LISTEN      
 
 Open new terminal to debug project. Assumes package `gdb-multiarch` installed.
 
-Install `gdb-multiarch` a GNU Debugger (with support for multiple architectures).
+Install `gdb-multiarch` a GNU Debugger (with support for multiple architectures). Alternative [gdb installation options](https://interrupt.memfault.com/blog/installing-gdb).
 
 ```bash
 sudo apt install gdb-multiarch

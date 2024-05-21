@@ -333,18 +333,24 @@ $(PROGRAM) : $(OBJECTS)
   arm-none-eabi-gcc $(LDFLAGS) -o $@ $(OBJECTS)
 ```
 
-Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `flash`. This will flash the application to the STM32F4 Discovery board using a [OpenOCD](https://openocd.org/) and [ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32](https://www.st.com/en/development-tools/st-link-v2.html).
+Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `flash`. This will flash the application to the STM32F4 Discovery board using [OpenOCD](https://openocd.org/doc-release/html/Flash-Programming.html#Flash-Programming) and [ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32](https://www.st.com/en/development-tools/st-link-v2.html). See [/docs/stlinkv2.md](/docs/stlinkv2.md) and [/docs/openocd.md](/docs/openocd.md) on how to install and use on a Ubuntu based linux distribution.
 
 ```Makefile
 flash:
-  openocd -f to be completed
+  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
+          -f /usr/share/openocd/scripts/target/stm32f4x.cfg\
+          -c "program $(PROGRAM) verify reset exit"
 ```
 
 Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `debug`.
 
+?? needs work to prevent having to type the following at the prompt (gdb) target extended-remote localhost:3333
+
 ```Makefile
 debug:
-  to be completed
+  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
+          -f /usr/share/openocd/scripts/target/stm32f4x.cfg \
+          & gdb-multiarch -q ./$(PROGRAM)
 ```
 
 Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `clean`. To remove all object `.o` files and the program binary.

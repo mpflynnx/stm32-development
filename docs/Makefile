@@ -28,7 +28,8 @@ $(PROGRAM) : $(OBJECTS)
   arm-none-eabi-gcc $(LDFLAGS) -o $@ $(OBJECTS)
 
 flash:
-  openocd -f to be completed
+  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg\
+ -f /usr/share/openocd/scripts/target/stm32f4x.cfg
 
 debug:
   to be completed
