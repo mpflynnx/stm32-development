@@ -218,7 +218,7 @@ Create file `~/.config/gdb/gdbinit` if it doesn't already exist, then add line
 add-auto-load-safe-path </add/path/to/project/.gdbinit>
 ```
 
-Subsititue the project path with the actual path to projects `.gdbinit` file.
+Substitute the project path with the actual path to projects `.gdbinit` file.
 
 If you have several projects in different directories you can add a line for each of them. When you start `gdb-multiarch` while in a directory, if the master gdbinit file `~/.config/gdb/gdbinit` allows it, gdb will load and process a second .gdbinit file which is in the current working directory. Doing this you can have specific instructions on a per project basis.
 
