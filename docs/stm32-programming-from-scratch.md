@@ -339,18 +339,23 @@ Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `fla
 flash:
   openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
           -f /usr/share/openocd/scripts/target/stm32f4x.cfg\
-          -c "program $(PROGRAM) verify reset exit"
+          -c "program ./$(PROGRAM).elf verify reset exit"
 ```
 
 Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `debug`.
 
-?? needs work to prevent having to type the following at the prompt (gdb) target extended-remote localhost:3333
+To prevent having to type the following at the gdb prompt
+
+(gdb) target extended-remote localhost:3333
+
+use the gdb-multiarch -ex argument as shown below.
 
 ```Makefile
 debug:
   openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
           -f /usr/share/openocd/scripts/target/stm32f4x.cfg \
-          & gdb-multiarch -q ./$(PROGRAM)
+          & gdb-multiarch -q ./$(PROGRAM).elf \
+          -ex "target extended-remote localhost:3333" 
 ```
 
 Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `clean`. To remove all object `.o` files and the program binary.

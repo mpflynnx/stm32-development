@@ -75,6 +75,10 @@ tcp        0      0 127.0.0.1:6666          0.0.0.0:*               LISTEN      
 - 4444 is for telnet
 - 3333 is for gdb
 
+### Shutting down openocd
+
+Use ctrl + c to invoke the shutdown command.
+
 ### gdb-multiarch usage
 
 Open new terminal to debug project. Assumes package `gdb-multiarch` installed.
@@ -228,17 +232,25 @@ If you have several projects in different directories you can add a line for eac
 
 ### Adding a Makefile task to start openocd and gdb-multiarch together
 
-:gdb
-  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg -f /usr/share/openocd/scripts/target/stm32f4x.cfg & gdb-multiarch -q ./awesomesauce.elf
+This will start openocd, gdb-multiarch and connect gdb to the openocd target.
 
+```Makefile
+:debug
+  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg -f /usr/share/openocd/scripts/target/stm32f4x.cfg & gdb-multiarch -q ./awesomesauce.elf -ex "target extended-remote localhost:3333"
+```
+`-f` is the file to load specific to the programmer/debugger and device
+
+`&` is used to start another process for gdb-multiarch
+
+gdb-multiarch arguments
+`-q` = quiet mode
+`-ex` = specify a command to run at start up
 
 Run the `make` task with:
 
 ```bash
-make gdb
+make debug
 ```
-
-
 
 ### kill openocd port 3333
 

@@ -28,11 +28,15 @@ $(PROGRAM) : $(OBJECTS)
   arm-none-eabi-gcc $(LDFLAGS) -o $@ $(OBJECTS)
 
 flash:
-  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg\
- -f /usr/share/openocd/scripts/target/stm32f4x.cfg
+  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
+          -f /usr/share/openocd/scripts/target/stm32f4x.cfg \
+          -c "program ./$(PROGRAM).elf verify reset exit"
 
 debug:
-  to be completed
+  openocd -f /usr/share/openocd/scripts/interface/stlink.cfg \
+          -f /usr/share/openocd/scripts/target/stm32f4x.cfg \
+          & gdb-multiarch -q ./$(PROGRAM).elf \
+          -ex "target extended-remote localhost:3333" 
 
 clean:
   rm *.o $(PROGRAM)
