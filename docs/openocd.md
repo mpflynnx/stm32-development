@@ -230,7 +230,7 @@ If you have several projects in different directories you can add a line for eac
 - [Gui & command line remote debugging](https://www.96boards.org/blog/gui-command-line-remote-debugging/)
 
 
-### Adding a Makefile task to start openocd and gdb-multiarch together
+### Adding a Makefile target to start openocd and gdb-multiarch together
 
 This will start openocd, gdb-multiarch and connect gdb to the openocd target.
 

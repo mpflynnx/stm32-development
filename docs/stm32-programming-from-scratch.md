@@ -358,6 +358,17 @@ debug:
           -ex "target extended-remote localhost:3333" 
 ```
 
+Alternative to the above, is to use the `st-util` command which is part of `stlink-tools` package to connect to running GDB server on port 4242.
+
+```Makefile
+debug:
+  st-util & gdb-multiarch -q ./$(PROGRAM).elf \
+    -ex "target extended-remote localhost:4242" 
+```
+
+Can also use `arm-none-eabi-gdb` in place of `gdb-multiarch`.
+
+
 Define a [target](https://makefiletutorial.com/#the-essence-of-make) called `clean`. To remove all object `.o` files and the program binary.
 
 ```Makefile
