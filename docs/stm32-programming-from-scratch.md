@@ -359,6 +359,7 @@ debug:
 ```
 
 Alternative to the above, is to use the `st-util` command which is part of `stlink-tools` package to connect to running GDB server on port 4242.
+OpenOCD and st-util both implement a gdb server which are used to program and debug the stm32 firmware application, so from that perspective they are the same. But those are completely two different projects (community, history). But OpenOCD has an TCL scripting language integrated which st-util doesn't have. From a standard-user perspective there is no real difference apart from some specific features.
 
 ```Makefile
 debug:
@@ -405,4 +406,4 @@ Adding .PHONY to a target will prevent Make from confusing the phony target with
 - [gnutoolchains.com | Download pre-built OpenOCD for Windows](https://gnutoolchains.com/arm-eabi/openocd/)
 - [st.com | ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32](https://www.st.com/en/development-tools/st-link-v2.html)
 - [makefiletutorial.com | .phony](https://makefiletutorial.com/#phony)
-- []()
+- [Do OpenOCD and ST-Util both can give the GDB service? What is the different?](https://github.com/stlink-org/stlink/issues/580)
