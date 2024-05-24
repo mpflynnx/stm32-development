@@ -6,7 +6,7 @@
 
 ### Installation  on Ubuntu based distros
 
-To flash and debug using the ST-Link/V2 port of the 32F429I Discovery Board on a Ubuntu based distro command line, first install `stlink-tools`:
+To flash and debug using the ST-Link/V2 port of the 32F429I Discovery Board on a Ubuntu based distro command line, first install [stlink-tools](https://github.com/stlink-org/stlink?tab=readme-ov-file) an open source version of the STMicroelectronics STLINK Tools:
 
 ```bash
 $ sudo apt install stlink-tools
@@ -66,6 +66,7 @@ kill $(lsof -t -i:4242)
 
 [Top](#table-of-contents)
 ## External references
+- [stlink-tools | Open source version of the STMicroelectronics STLINK Tools](https://github.com/stlink-org/stlink?tab=readme-ov-file)
 - [ST-LINK/V2 in-circuit debugger/programmer for STM8 and STM32](https://www.st.com/en/development-tools/st-link-v2.html)
 - [st-flash | Man Page | Flash binary files to STM32 device](https://www.mankier.com/1/st-flash)
 - [st-util | Man Page | Run GDB server to interact with STM32 device](https://www.mankier.com/1/st-util)
